@@ -1,0 +1,542 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 400px;
+}
+
+.container .navbar {
+    width: 100%;
+    min-height: 70px;
+}
+
+.container .navbar img:first-child {
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.container .navbar ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.container .navbar ul li {
+    display: inline-block;
+    margin-left: 17px;
+    font-size: 20px;
+    color: #6F97A7;
+    cursor: pointer;
+}
+
+.container .navbar select {
+    font-size: 17px;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 230px;
+    border: none;
+    color: #6F97A7;
+}
+
+.container .navbar .img2 {
+    width: 40%;
+    height: 40px;
+    background-image: url(/images/serach-img.png);
+    background-repeat: no-repeat;
+    margin-left: -100px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.container .navbar .img2 img {
+    width: 100%;
+}
+
+.container .navbar a {
+    text-decoration: none;
+}
+
+.container .news {
+    width: 100%;
+    height: 50px;
+    background-color: #0067B8;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container .news p {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.container .image-section {
+    width: 100%;
+    height: 700px;
+    background: url(/images/homebg.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+}
+
+.container .image-section .shop-now {
+    width: 32%;
+    height: 200px;
+    margin-left: 800px;
+}
+
+.container .image-section .shop-now h1 {
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+}
+
+.container .image-section .shop-now p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.container .image-section .shop-now a {
+    background-color: #000000;
+    width: 40%;
+    color: #ffffff;
+    height: 50px;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: all 2s;
+}
+
+.container .image-section .shop-now a:hover {
+    margin-left: 10px;
+}
+
+.container .items {
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container .items a {
+    text-decoration: none;
+}
+
+.container .items .box {
+    width: 13%;
+    height: 100px;
+    margin-left: 90px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.container .items .box img {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.container .items .box p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+
+.container .items a .box:hover {
+    margin-top: 20px;
+}
+
+.container .images2 {
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container .images2 .box {
+    width: 45%;
+    min-height: 300px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #F2F2F2;
+}
+
+.container .images2 .box img {
+    width: 100%;
+}
+
+.container .images2 .textbox {
+    width: 45%;
+    height: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.container .images2 .textbox h1 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+    font-size: 25px;
+}
+
+.container .images2 .textbox p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.container .images2 .textbox a {
+    color: #0067B8;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container .images2 .textbox .a2 {
+    margin-left: 50px;
+}
+
+.container .images2 .textbox2 {
+    width: 45%;
+    height: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.container .images2 .textbox2 h1 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+    font-size: 25px;
+}
+
+.container .images2 .textbox2 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.container .images2 .textbox2 a {
+    color: #0067B8;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container .image-section2 {
+    width: 100%;
+    height: 700px;
+    background: url(/images/xbos\ os\ bg.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    margin-top: 20px;
+}
+
+.container .image-section2 .shop-now {
+    width: 30%;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.container .image-section2 .shop-now h1 {
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+}
+
+.container .image-section2 .shop-now p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.container .image-section2 .shop-now a {
+    background-color: #000000;
+    width: 40%;
+    color: #ffffff;
+    height: 50px;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: all 2s;
+}
+
+.container .image-section2 .shop-now a:hover {
+    margin-left: 10px;
+}
+
+.container .footer-section {
+    width: 100%;
+    min-height: 500px;
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.container .footer-section .box {
+    width: 30%;
+    min-height: 100px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+.container .footer-section .box h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #7C6C6F;
+    margin-bottom: 30px;
+}
+
+.container .footer-section .box p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #2e2a2a;
+    line-height: 40px;
+}
+
+.container .footer-section ul {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.container .footer-section ul li {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin-left: 25px;
+    color: #2e2a2a;
+    margin-bottom: 20px;
+}
+
+.container .footer-section ul a {
+    text-decoration: none;
+}
+
+.mobile_icon {
+    display: none;
+}
+
+@media only screen and (min-width:300px) and (max-width:800px) {
+    .container {
+        max-width: 90%;
+    }
+    /* nav section */
+    .container .navigation {
+        display: none;
+        top: 60px;
+        left: 0px;
+    }
+    .container .navbar {
+        width: 100%;
+        min-height: 65px;
+    }
+    .container .navbar img:first-child {
+        width: 90px;
+        margin-left: 20px;
+    }
+    .mobile_icon {
+        display: inline-block;
+        float: right;
+        padding: 10px;
+        font-size: 30px;
+        padding-right: 20px;
+        margin-right: -50px;
+    }
+    .container .navbar ul {
+        margin-left: 100px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .container .navbar ul li {
+        margin-left: 17px;
+        margin-top: 10px;
+        display: block;
+        background-color: rgba(000, 000, 000, 0.1);
+        color: #ee0a0a;
+        transition: all 2s;
+    }
+    .container .navbar select {
+        font-size: 15px;
+        background-color: rgba(000, 000, 000, 0.1);
+        margin-top: 10px;
+        margin-left: 117px;
+        color: #ee0a0a;
+        transition: all 2s;
+    }
+    .container .navbar .img2 {
+        width: 40%;
+        height: 40px;
+        background-image: url(/images/serach-img.png);
+        background-repeat: no-repeat;
+        margin-left: -100px;
+        margin: 20px;
+        margin-top: 40px;
+    }
+    .container .navbar .img2 img {
+        width: 50%;
+    }
+    /* news section */
+    .container .news {
+        margin-left: 20px;
+    }
+    /* images_ad section */
+    .container .image-section {
+        width: 100%;
+        height: 200px;
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+    .container .image-section .shop-now {
+        width: 50%;
+        height: 50px;
+        margin-left: 150px;
+    }
+    .container .image-section .shop-now h1 {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .container .image-section .shop-now p {
+        font-size: 10px;
+    }
+    .container .image-section .shop-now a {
+        width: 50%;
+        height: 40px;
+        font-size: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .container .image-section .shop-now a:hover {
+        margin-left: 10px;
+    }
+    /* items */
+    .container .items {
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+        position: absolute;
+    }
+    .container .items .box {
+        width: 60%;
+        height: 100px;
+        display: block;
+        margin: 30px auto;
+    }
+    /* images2 */
+    .container .images2 {
+        min-height: 200px;
+        margin-top: 30px;
+        position: relative;
+        top: 650px;
+    }
+    .container .images2 .box {
+        width: 35%;
+        height: 20px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .container .images2 .box img {
+        width: 100%;
+    }
+    .container .images2 .textbox {
+        width: 35%;
+        height: 20px;
+        display: inline-block;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .container .images2 .textbox h1 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .container .images2 .textbox p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .container .images2 .textbox a {
+        font-size: 10px;
+    }
+    .container .images2 .textbox .a2 {
+        margin-left: 10px;
+    }
+    .container .images2 .textbox2 {
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        margin-left: 30px;
+        text-align: left;
+    }
+    .container .images2 .textbox2 h1 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .container .images2 .textbox2 p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .container .images2 .textbox2 a {
+        font-size: 10px;
+    }
+    .container .image-section2 {
+        display: none;
+    }
+    .container .footer-section {
+        margin-left: 20PX;
+        height: 300px;
+        margin-top: 580px;
+    }
+    .container .footer-section .box {
+        width: 13%;
+        min-height: 100px;
+        display: inline-block;
+        margin-left: 5px;
+        vertical-align: top;
+        margin-bottom: 5px;
+    }
+    .container .footer-section .box h1 {
+        font-size: 7px;
+        margin-bottom: 5px;
+    }
+    .container .footer-section .box p {
+        font-size: 7px;
+        line-height: 20px;
+    }
+    .container .footer-section ul {
+        display: inline-block;
+        margin-left: 170px;
+    }
+    .container .footer-section ul li {
+        display: inline-block;
+        font-size: 7px;
+        margin-left: 5px;
+        margin-bottom: 7px;
+    }
+}
